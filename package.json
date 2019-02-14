@@ -1,6 +1,6 @@
 {
   "name": "deep-copy.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deep copy component of JS",
   "main": "src/index.js",
   "directories": {
