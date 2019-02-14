@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>deep-copy.js</title>
+  </head>
+  <body>
+    <div id="examples">
+    </div>
+    <script src="../lib/index.js"></script>
+    <script>
+      // 此处是代码...
+      console.log(window.deepCopy);
+      let a = [1, 2, 3];
+      let b = window.deepCopy(a);
+      b[0] = 4;
+      console.log(a, b);
+    </script>
+  </body>
+</html>

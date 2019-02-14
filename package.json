@@ -1,0 +1,41 @@
+{
+  "name": "deep-copy.js",
+  "version": "1.0.0",
+  "description": "Deep copy component of JS",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
+  },
+  "files": [
+    "examples",
+    "lib",
+    "src",
+    "test"
+  ],
+  "private": false,
+  "scripts": {
+    "test": "mocha --recursive",
+    "examples": "open ./examples/index.html",
+    "build": "./node_modules/.bin/babel src --out-dir lib"
+  },
+  "keywords": [
+    "deep-copy",
+    "deep copy"
+  ],
+  "homepage": "https://github.com/nongshuqiner/deep-copy.js.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nongshuqiner/deep-copy.js.git"
+  },
+  "author": "nongshuqiner <ym1185509297@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
