@@ -2,6 +2,8 @@
 var expect = require('chai').expect;
 var deepCopy = require('../src/index');
 
+console.log('由于深拷贝Dom节点只能使用浏览器测试，故此测试还需查看浏览器测试结果');
+
 // 测试脚本里面应该包括一个或多个describe块，称为测试套件（test suite）
 describe('数组深拷贝', function () {
   // 每个describe块应该包括一个或多个it块，称为测试用例（test case）

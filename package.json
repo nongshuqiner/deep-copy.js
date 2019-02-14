@@ -1,6 +1,6 @@
 {
   "name": "deep-copy.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Deep copy component of JS",
   "main": "src/index.js",
   "directories": {
@@ -16,7 +16,7 @@
   ],
   "private": false,
   "scripts": {
-    "test": "mocha --recursive",
+    "test": "mocha test/index.js && open test/test.spec.html",
     "examples": "open ./examples/index.html",
     "build": "./node_modules/.bin/babel src --out-dir lib"
   },

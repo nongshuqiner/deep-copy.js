@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/mocha@5.2.0/mocha.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script src="https://unpkg.com/mocha@5.2.0/mocha.js"></script>
+    <script>
+      mocha.setup('bdd');
+    </script>
+    <script src="../lib/index.js"></script>
+    <script src="http://chaijs.com/chai.js"></script>
+    <script src="./html.spec.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>

@@ -31,7 +31,7 @@ console.log(a, b); // [1, 2, 3] [4, 2, 3]
 ### `<script>`使用
 
 ``` HTML
-<script src="//unpkg.com/deep-copy.js@1.0.1/lib/index.js"></script>
+<script src="//unpkg.com/deep-copy.js@1.0.2/lib/index.js"></script>
 <script>
   console.log(window.deepCopy);
   let a = [1, 2, 3]
