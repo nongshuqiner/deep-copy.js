@@ -1,8 +1,8 @@
 {
   "name": "deep-copy.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Deep copy component of JS",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "examples",
     "lib": "lib",

@@ -1,7 +1,8 @@
 (function (root, pluginName, factory) {
   if (typeof define === 'function' && define.amd) {
     // AMD:
-    define(factory()); // define([], factory);
+    // define(factory());
+    define([], factory);
   } else if (typeof module === 'object' && module.exports) {
     // Node:
     module.exports = factory();
@@ -29,6 +30,7 @@
       }
     })
     if (typeof result === 'undefined') {
+      console.log(data, Object.prototype.toString.call(data), ({}).toString.call(data))
       if (Object.prototype.toString.call(data) === '[object Array]') {
         result = []
         data.forEach((child, index, array) => {
