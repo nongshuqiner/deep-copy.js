@@ -30,7 +30,6 @@
       }
     })
     if (typeof result === 'undefined') {
-      console.log(data, Object.prototype.toString.call(data), ({}).toString.call(data))
       if (Object.prototype.toString.call(data) === '[object Array]') {
         result = []
         data.forEach((child, index, array) => {
